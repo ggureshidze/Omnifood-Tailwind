@@ -1,0 +1,187 @@
+/****************************** 
+Screen< 1200  
+     Screen < 1024  
+            screen < 768 
+                screen <480
+
+
+
+Big Tablet- 1200 px  (with smaller)
+
+******************/
+
+
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+        
+    }
+        
+    
+    .row{
+        padding: 0 2%;
+
+    }
+}
+
+
+
+/* 
+big phone and big tablet: from 768 to 1024px *
+
+*/
+
+
+    
+@media only screen and (max-width: 1023px){
+    body{
+        font-size: 18px;
+        
+    }
+    section{ padding: 50px 0;
+    }
+
+    .app-screen{
+        width: 50%;
+    }
+    .work-steps{
+        padding: 3%;
+    }
+    .work-steps div{
+        padding-top: 7px;
+        height: 50px;
+        
+    }
+
+    .work-steps p{
+        font-size: 90%;
+    }
+
+    .btn-app img {
+        height: 50px;
+        width: auto;
+    }
+    .main-nav li{
+        display: block;
+    }
+    .main-nav{
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+        
+    }
+    .mobile-nav-icon{
+        display: block;
+    }
+    .main-nav li{
+        display: block;
+    }
+
+    .main-nav li a:hover,
+.main-nav li a:active{
+    padding: 10px 0;
+    font-size: 100%;
+    display: block;
+    
+
+}
+.maps{
+    margin: 0 auto;
+    
+}
+
+
+/* 
+     
+  small phone 481px to 768px
+*/
+
+
+@media only screen and (max-width: 768px){
+    
+
+    
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+
+    }
+
+
+    .long-copy{
+        width: 90%;
+        margin-left: 2%;
+    }
+    h1{
+        font-size: 160%;
+
+    }
+
+    h2{
+        font-size: 120%;
+
+    }
+
+    .maps{
+        margin-left: 10px;
+        width: auto;
+        box-shadow: none;
+        
+    }
+    .contact-form{
+        width: 90%;
+
+    } 
+    footer{
+        font-size: 70%;
+    }
+    .icon-small{
+        zoom: 70%;
+        margin-right: 5%;
+    }
+    .main-nav{
+        display: none;
+    }
+
+    .footer-box{
+        display: inline-flex;
+        justify-content: center;
+        
+    }
+
+    
+    
+}
+
+@media only screen and (max-width: 484px){
+
+    body{
+        font-size: 70%;
+         
+    }
+    .logo{
+        margin: 0;
+    }
+    .app-screen{
+        margin-right: 20%;
+    }
+    .maps{
+        box-shadow: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex:none;
+        padding-right: 60%;
+        margin-left: 180px;
+        
+    }
+    .main-nav{
+        
+        
+        margin-left: 10px;
+    }
+
+    }
+
+}
